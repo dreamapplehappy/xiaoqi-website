@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TakeFive — A gentle break reminder for your Mac</title>
+  <meta name="description" content="TakeFive lives in your Mac's menu bar and reminds you to stand up, stretch, and rest your eyes — while politely stepping aside during meetings and full-screen work." />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="TakeFive — A gentle break reminder for your Mac" />
+  <meta property="og:description" content="Sit less. Feel better. A menu-bar break reminder that knows when you're busy." />
+  <meta property="og:image" content="assets/hero.jpg" />
+  <meta property="og:url" content="https://takefive.whynottryfor.com" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <link rel="apple-touch-icon" href="assets/logo.png" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="nav__brand" href="#top">
+        <img class="nav__logo" src="assets/logo.png" alt="TakeFive logo" />
+        <span class="nav__name">TakeFive</span>
+      </a>
+      <nav class="nav__links">
+        <a href="#features">Features</a>
+        <a href="#pro">Pro</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="btn btn--primary btn--sm" href="#download">Get</a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="hero__content reveal">
+        <p class="eyebrow">TakeFive · for macOS</p>
+        <h1 class="hero__title">Sit less.<br />Feel better.</h1>
+        <p class="hero__sub">A gentle break reminder that lives in your Mac’s menu bar — and politely steps aside when you’re in a meeting or presenting.</p>
+        <div class="hero__cta">
+          <a class="badge-appstore" href="https://apps.apple.com/app/id6810940670" target="_blank" rel="noopener" aria-label="Download on the App Store">
+            <svg class="badge-appstore__icon" viewBox="0 0 384 512" aria-hidden="true"><path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+            <span class="badge-appstore__text"><small>Download on the</small><strong>App Store</strong></span>
+          </a>
+          <a class="hero__link" href="#features">See how it works<span class="arrow">↓</span></a>
+        </div>
+      </div>
+      <div class="hero__screen reveal reveal--delay">
+        <div class="screen screen--float">
+          <img src="assets/hero.jpg" alt="TakeFive welcome window on macOS" loading="eager" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURES ============ -->
+    <section class="features" id="features">
+
+      <!-- F1: Reminders -->
+      <div class="feature reveal">
+        <div class="feature__text">
+          <p class="eyebrow">Gentle reminders</p>
+          <h2>Never forget<br />to stand up.</h2>
+          <p class="feature__body">TakeFive nudges you 30 seconds before it’s time — a quiet heads-up so you can finish your sentence. Snooze it, or skip it. No guilt, no lockdown.</p>
+        </div>
+        <div class="feature__media">
+          <div class="screen"><img src="assets/notify.jpg" alt="Break reminder notification" loading="lazy" /></div>
+        </div>
+      </div>
+
+      <!-- F2: Menu bar -->
+      <div class="feature feature--reverse reveal">
+        <div class="feature__text">
+          <p class="eyebrow">Always on, never in the way</p>
+          <h2>It lives quietly<br />in your menu bar.</h2>
+          <p class="feature__body">A tiny countdown sits next to your clock. Glance to see time until your next break, pause with one click, or rest right now — all without opening a window.</p>
+        </div>
+        <div class="feature__media">
+          <div class="screen"><img src="assets/menubar.jpg" alt="Menu bar countdown and quick actions" loading="lazy" /></div>
+        </div>
+      </div>
+
+      <!-- F3: Full-screen break -->
+      <div class="feature reveal">
+        <div class="feature__text">
+          <p class="eyebrow">Real breaks</p>
+          <h2>A full-screen<br />moment to breathe.</h2>
+          <p class="feature__body">When it’s time, TakeFive fills your screen with a calm countdown. Stand up, stretch, look far away. Your eyes — and your back — will thank you.</p>
+        </div>
+        <div class="feature__media">
+          <div class="screen"><img src="assets/break.jpg" alt="Full-screen break countdown" loading="lazy" /></div>
+        </div>
+      </div>
+
+      <!-- F4: Settings -->
+      <div class="feature feature--reverse reveal">
+        <div class="feature__text">
+          <p class="eyebrow">Made for you</p>
+          <h2>Tune it to<br />your rhythm.</h2>
+          <p class="feature__body">Set how long you work and how long you rest. Turn on 20-20-20 micro-breaks — every 20 minutes, look 20 feet away for 20 seconds to rest your eyes.</p>
+        </div>
+        <div class="feature__media">
+          <div class="screen"><img src="assets/settings.jpg" alt="TakeFive settings" loading="lazy" /></div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ============ PRO ============ -->
+    <section class="pro" id="pro">
+      <div class="pro__inner reveal">
+        <p class="eyebrow eyebrow--amber">TakeFive Pro</p>
+        <h2 class="pro__title">Knows when you’re<br />in the zone.</h2>
+        <p class="pro__sub">Pro watches for the moments you shouldn’t be interrupted — and stays quiet on its own.</p>
+        <ul class="pro__list">
+          <li>
+            <span class="pro__icon">🎥</span>
+            <div><strong>Auto-pause in meetings</strong><p>On camera or on a call? TakeFive holds your break until you’re done.</p></div>
+          </li>
+          <li>
+            <span class="pro__icon">🖥️</span>
+            <div><strong>Auto-pause in full-screen</strong><p>Presenting or deep in a full-screen app? It won’t steal the stage.</p></div>
+          </li>
+          <li>
+            <span class="pro__icon">🌙</span>
+            <div><strong>Do Not Disturb periods</strong><p>Protect your focus hours. Breaks wait until you’re ready.</p></div>
+          </li>
+        </ul>
+        <a class="btn btn--amber btn--lg" href="https://apps.apple.com/app/id6810940670" target="_blank" rel="noopener">Unlock Pro</a>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="cta" id="download">
+      <div class="cta__inner reveal">
+        <img class="cta__logo" src="assets/logo.png" alt="TakeFive" />
+        <h2>Give your eyes a break.</h2>
+        <p>Free to start. Pro when you need it.</p>
+        <a class="badge-appstore badge-appstore--lg" href="https://apps.apple.com/app/id6810940670" target="_blank" rel="noopener" aria-label="Download on the App Store">
+          <svg class="badge-appstore__icon" viewBox="0 0 384 512" aria-hidden="true"><path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+          <span class="badge-appstore__text"><small>Download on the</small><strong>App Store</strong></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="faq" id="faq">
+      <div class="faq__inner">
+        <h2 class="faq__title reveal">Questions, answered.</h2>
+
+        <details class="faq__item reveal">
+          <summary>Does TakeFive need the internet?</summary>
+          <p>No. Everything runs locally on your Mac. Nothing is tracked, and nothing leaves your machine.</p>
+        </details>
+
+        <details class="faq__item reveal">
+          <summary>Is it free?</summary>
+          <p>Yes — the core break reminder is free forever. Pro adds smart auto-pause and focus protection, unlocked with a one-time purchase.</p>
+        </details>
+
+        <details class="faq__item reveal">
+          <summary>Which Mac do I need?</summary>
+          <p>TakeFive works on macOS 13 Ventura or later, on both Apple silicon and Intel Macs.</p>
+        </details>
+
+        <details class="faq__item reveal">
+          <summary>Does it collect my data?</summary>
+          <p>No. TakeFive doesn’t collect, store, or send any personal data. What happens on your Mac stays on your Mac.</p>
+        </details>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <img class="footer__logo" src="assets/logo.png" alt="TakeFive logo" />
+        <div>
+          <div class="footer__name">TakeFive</div>
+          <div class="footer__tag">Made with care for people who sit too long.</div>
+        </div>
+      </div>
+      <nav class="footer__links">
+        <a href="https://apps.apple.com/app/id6810940670" target="_blank" rel="noopener">App Store</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="mailto:appledeveloper1001@163.com">Contact</a>
+      </nav>
+      <div class="footer__copy">© 2026 TakeFive. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
